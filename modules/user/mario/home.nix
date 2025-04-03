@@ -34,6 +34,10 @@ in
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
 
+    profileExtra = ''
+      . $ZDOTDIR/modules/homebrew.zsh
+    '';
+
     initExtra = ''
       . $ZDOTDIR/modules/prompt.zsh
     '';
