@@ -1,0 +1,12 @@
+cask "ghostty"
+cask "rectangle"
+cask "keka"
+
+cask "1password"
+cask "1password-cli"
+
+cask "iina"
+cask "obsidian"
+
+cask "sf-symbols"
+cask "visual-studio-code"

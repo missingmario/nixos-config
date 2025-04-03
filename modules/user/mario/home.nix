@@ -83,6 +83,9 @@ in
       "zsh/modules" = {
         source = ../../xdg-config/zsh-modules;
       };
+      "homebrew" = {
+        source = ../../xdg-config/homebrew;
+      };
     };
   };
 }
