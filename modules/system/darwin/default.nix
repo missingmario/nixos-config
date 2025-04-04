@@ -2,8 +2,6 @@
 {
   imports = [
     ../shared
-
-    ./homebrew.nix
   ];
 
   # nix-darwwin state version (DO NOT MODIFY)
