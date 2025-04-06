@@ -50,7 +50,7 @@
           ];
         };
 
-      darwinConfigurations."mario-utm-macos" =
+      darwinConfigurations."mario-macbook" =
         let
           system = "aarch64-darwin";
           vars = {
