@@ -31,4 +31,17 @@ in
   # Networking
   networking.hostName = "mario-vmware-nixos";
   networking.networkmanager.enable = true;
+
+  # OpenSSH
+  services.openssh = {
+    enable = true;
+    settings = {
+      AllowUsers = [ "mario" ];
+    };
+  };
+
+  # Tailscale
+  services.tailscale = {
+    enable = true;
+  };
 }

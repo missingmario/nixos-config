@@ -3,6 +3,7 @@
   # Packages
   environment.systemPackages = [
     pkgs.ghostty
+    pkgs.gnome-remote-desktop
   ];
 
   # Git
